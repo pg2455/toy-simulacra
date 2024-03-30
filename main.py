@@ -45,4 +45,4 @@ while step < n_steps:
     
     step += 1
     curr_time = sim_start_time + timedelta(seconds=seconds_per_step*step)
-    print(f"Current time: {curr_time.strftime("%H:%M")}")
+    print(f"Current time: {curr_time.strftime('%H:%M')}")
